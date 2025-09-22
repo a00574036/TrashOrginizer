@@ -1,3 +1,10 @@
+Product owner - Elian
+Lider Tecnico - Victor
+Desarrollador UI - Mafer
+Desarrollador de datos - Christian
+Analista - Pedro
+
+
 Dentro del ODS 11: Ciudades y comunidades sostenibles, uno de los principales retos es la mala gestión de los residuos sólidos urbanos. En muchas ciudades la basura no se separa correctamente, lo que genera contaminación ambiental, saturación de los rellenos sanitarios y problemas de salud pública. Además, la falta de cultura sobre separación de residuos y reciclaje hace que gran parte de los desechos terminen mezclados, perdiéndose materiales que podrían reutilizarse.
 
 El proyecto está enfocado en jóvenes universitarios, ya que representan una generación clave para impulsar cambios de hábitos en la sociedad. Su capacidad de aprendizaje, acceso a la tecnología y el impacto que pueden generar en sus familias y comunidades los convierte en una población estratégica para promover ciudades más sostenibles.
