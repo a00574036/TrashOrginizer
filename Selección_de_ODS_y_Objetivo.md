@@ -10,3 +10,10 @@ Dentro del ODS 11: Ciudades y comunidades sostenibles, uno de los principales re
 El proyecto está enfocado en jóvenes universitarios, ya que representan una generación clave para impulsar cambios de hábitos en la sociedad. Su capacidad de aprendizaje, acceso a la tecnología y el impacto que pueden generar en sus familias y comunidades los convierte en una población estratégica para promover ciudades más sostenibles.
 
 Existen diversos datos que muestran que este problema es real. De acuerdo con la SEMARNAT, en México se generan más de 120 mil toneladas de basura al día, pero únicamente alrededor del 10% se recicla, lo que refleja una gran oportunidad de mejora. Además, en ciudades como León, Guanajuato, se han identificado tiraderos clandestinos y acumulación de residuos en espacios públicos, lo que afecta la calidad de vida de los habitantes y evidencia la necesidad de fortalecer la cultura de separación y disposición adecuada de los desechos.
+
+#2
+
+  1-Como tal toda la población se ve afectada, a diferentes niveles, pero los problemas ambientales nos afectan a todos. Especificamente el no separar la basura o tirarla reduce el trato adecuado de desperdicios de acuerdo a el tipo de desperdicio, lo que lleva a que todos los efectos negativos en la salud de la contaminación afecten a todos (en algunos lugares más que otros).
+
+  
+
