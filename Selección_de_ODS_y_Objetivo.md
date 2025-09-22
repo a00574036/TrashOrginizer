@@ -1,8 +1,8 @@
-Product owner - Elian
-Lider Tecnico - Victor
-Desarrollador UI - Mafer
-Desarrollador de datos - Christian
-Analista - Pedro
+- Product owner - Elian
+- Lider Tecnico - Victor
+- Desarrollador UI - Mafer
+- Desarrollador de datos - Christian
+- Analista - Pedro
 
 
 Dentro del ODS 11: Ciudades y comunidades sostenibles, uno de los principales retos es la mala gestión de los residuos sólidos urbanos. En muchas ciudades la basura no se separa correctamente, lo que genera contaminación ambiental, saturación de los rellenos sanitarios y problemas de salud pública. Además, la falta de cultura sobre separación de residuos y reciclaje hace que gran parte de los desechos terminen mezclados, perdiéndose materiales que podrían reutilizarse.
