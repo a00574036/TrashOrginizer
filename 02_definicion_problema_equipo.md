@@ -25,7 +25,10 @@ Consecuencias
 
 4- Criterios de éxito:
 -El prototipo debe identificar correctamente el tipo de basura (orgánico, inorgánico, reciclable, etc) en ≥85% de las pruebas en diferentes escaneos.
+
 -El prototipo debe mostrar el grupo de basura clasificado (texto e ícono/colores) de forma legible y sin fallos en ≥95% de las pruebas.
+
 -El prototipo debe mostrar el resultado de clasificación en ≤5 segundos después de capturar la imagen, en ≥85% de los intentos.
+
 -El prototipo debe poder guardar y recuperar al menos 45 registros de objetos clasificados (imagen + resultado) con ≥90% de éxito.
 
