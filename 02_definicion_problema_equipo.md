@@ -24,6 +24,7 @@ Consecuencias
 - Problemas de salud pública
 
 4- Criterios de éxito:
+
 -El prototipo debe identificar correctamente el tipo de basura (orgánico, inorgánico, reciclable, etc) en ≥85% de las pruebas en diferentes escaneos.
 
 -El prototipo debe mostrar el grupo de basura clasificado (texto e ícono/colores) de forma legible y sin fallos en ≥95% de las pruebas.
