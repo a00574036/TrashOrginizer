@@ -1,6 +1,6 @@
 # TrashOrginizer
 
-<u>Arquitectura del proyecto:</u>
+**_Arquitectura del proyecto:_**
 
 - **app/**  
   Contiene la interfaz gráfica desarrollada con PySimpleGUI.  
