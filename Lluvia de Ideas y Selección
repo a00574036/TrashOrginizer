@@ -1,1 +1,74 @@
+1. Lluvia de Ideas
+App local con PySimpleGUI (MVP): Cargar o capturar foto, clasificar en 3–4 categorías macro (orgánico / reciclable / no reciclable / especiales) y mostrar resultado con texto + ícono/color.
 
+Clasificador híbrido simple: Empezar con selector guiado (si el modelo duda) + reglas para objetos comunes (PET, cartón, servilleta) mientras juntamos dataset propio.
+
+Mini-dataset del campus: Tomar 200–300 fotos reales (cafetería/aulas), etiquetarlas en CSV para entrenar un k-NN/SVM ligero (scikit-learn).
+
+Historial local: Guardar (imagen + etiqueta + timestamp) en /data (CSV/JSON) + carpeta /data/img/.
+
+Guía rápida “¿Dónde va…?”: Pantalla con tabla simple de objetos frecuentes del campus y su contenedor.
+
+Medición de desempeño: Cronometrar “cargar → resultado”, mostrar promedio y porcentaje ≤5s.
+
+Corrección cuando hay duda (top-2): Si la confianza es baja, pedir confirmación y registrar la etiqueta corregida.
+
+Métricas de impacto básicas: Contador estimado de “errores evitados” y “piezas reciclables detectadas”, con factores conservadores.
+
+Gamificación ligera offline: Puntos locales por uso correcto; top-3 de la semana (sin login).
+
+Mapa “mock” de contenedores: JSON estático con ubicaciones de contenedores del campus (sin GPS).
+
+2. Idea elegida
+
+App local “Clasifica Ya” con PySimpleGUI, sin servicios en la nube, que:
+
+Cargue/Capture una imagen.
+
+Clasifique el residuo en 3–4 categorías macro usando un clasificador híbrido (reglas + modelo ligero).
+
+Muestre resultado con texto + ícono/color de alto contraste.
+
+Guarde cada caso en /data (imagen + etiqueta + timestamp) y permita ver historial.
+
+2.1 Justificación (ODS, población y criterios de éxito)
+
+ODS 11: mejora la separación y reduce mezcla de residuos en espacios universitarios.
+
+Universitarios: solución rápida, simple y offline; funciona en laptops promedio del equipo.
+
+Criterios de éxito aterrizados al MVP:
+
+≥85% de acierto: iniciar con 3–4 categorías macro + confirmación cuando haya duda para mejorar datos.
+
+UI estable ≥95%: PySimpleGUI minimiza fallos; siempre renderiza texto + color + ícono.
+
+≤5 s en ≥85%: redimensionado previo (p. ej., 384–512 px) y pipeline corto.
+
+≥45 registros: CSV/JSON + carpeta de imágenes con lectura/escritura verificadas.
+
+2.2 MoSCoW 
+
+| Prioridad         | Funcionalidad                 | ¿Cómo lo haremos de forma real?                                                         |
+| ----------------- | ----------------------------- | --------------------------------------------------------------------------------------- |
+| **Must**          | Cargar/Capturar imagen        | PySimpleGUI (file dialog) + opcional OpenCV para cámara.                                |
+| **Must**          | Clasificación básica          | **Reglas + k-NN/SVM** con mini-dataset del campus (scikit-learn); 3–4 categorías macro. |
+| **Must**          | Mostrar resultado claro       | Etiqueta + color + ícono; manejo de errores simple.                                     |
+| **Must**          | Guardar registro              | CSV/JSON + `/data/img/`; timestamp y ruta del archivo.                                  |
+| **Should**        | Historial y filtro            | Tabla básica en la app (filtrar por categoría/fecha).                                   |
+| **Should**        | Guía rápida                   | Pantalla con tabla de objetos comunes y su contenedor.                                  |
+| **Should**        | Medir tiempo de respuesta     | Cronómetro interno y promedio visible al usuario.                                       |
+| **Could**         | Corrección/Aprendizaje ligero | Si hay baja confianza, pedir confirmación y guardar etiqueta corregida.                 |
+| **Could**         | Gamificación local            | Contador de puntos y top-3 semanal en CSV (sin login).                                  |
+| **Could**         | Mapa mock de contenedores     | JSON estático con ubicaciones del campus.                                               |
+| **Won’t (ahora)** | Nube / SSO / backend          | Se pospone por complejidad y permisos.                                                  |
+
+2.3 Criterios de aceptación del MVP
+
+Precisión: En un set de ≥40 imágenes del campus, ≥85% de acierto en categoría principal.
+
+Robustez UI: ≥95% de ejecuciones muestran resultado sin crash (10 sesiones seguidas).
+
+Rendimiento: ≤5 s desde cargar/capturar hasta resultado en ≥85% de intentos (laptop del equipo).
+
+Persistencia: ≥45 registros guardados y recuperables desde la vista Historial (CSV/JSON + imágenes).
