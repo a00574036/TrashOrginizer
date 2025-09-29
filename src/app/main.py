@@ -9,16 +9,16 @@ from app.win_canvas import open_win_canvas
 def main():
     root = tk.Tk()
     root.title("Trash Organizer")
-    root.geometry("420x340")
+    root.geometry("500x600")
 
-    frame = ttk.Frame(root, padding=16)
-    frame.pack(fill="both", expand=True)
 
-    ttk.Label(frame, text="Aplicación Demo (tkinter)", font=("Segoe UI", 12, "bold")).pack(pady=(0, 12))
-    ttk.Button(frame, text="Analizar", command=lambda: open_win_home(root)).pack(pady=4, fill="x")
-   
-    ttk.Separator(frame).pack(pady=6, fill="x")
-    ttk.Button(frame, text="Salir", command=root.destroy).pack(pady=6)
+
+
+    lblA=ttk.Label(root, text="Escanea tu basura", font=("Segoe UI", 12, "bold")).pack(pady=(0, 12))
+    lblFoto=tk.Label(root, text="FOTO",bg="light blue",width=60,height=30).place(x=40,y=40)
+    btnA=ttk.Button(root, text="Analizar", command=lambda: open_win_home(root))
+    btnA.place(x=225,y=500)
+
 
     root.mainloop()
 
