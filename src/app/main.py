@@ -5,6 +5,9 @@ from app.win_form import open_win_form
 from app.win_list import open_win_list
 from app.win_table import open_win_table
 from app.win_canvas import open_win_canvas
+from app.win_inorganica import open_win_inorganica
+
+
 
 def main():
     root = tk.Tk()
