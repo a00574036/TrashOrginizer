@@ -1,5 +1,7 @@
 Maria Fernanda Cortes Olivares
 
-Ventana: Ventana de inicio (La ventana de inicio de nuestra aplicación es lo primero que ve el usuario, como una pantalla de bienvenida. Su función es presentarle la app y darle la opción de empezar a usarla, por ejemplo, para escanear un producto. Desde esta ventana, el usuario puede navegar a la siguiente pantalla donde realmente se realiza el escaneo y se muestra si el producto es reciclable, basura orgánica, basura inorgánica o no identificable.)
+Ventana: La ventana muestra los diferentes tipos de basura, como orgánica, inorgánica o reciclable. Esta ventana ayuda al usuario a ver claramente a qué tipo pertenece cada producto. La app funciona escaneando un producto y diciendo automáticamente qué tipo de basura es, por lo que esta ventana hace que sea más fácil entender y separar la basura correctamente.
 
-La ventana de inicio apoya la idea del proyecto porque, con el botón de inicio que agregué, el usuario puede comenzar fácilmente a usar la app. Desde ahí puede escanear un producto y saber rápido si es reciclable, orgánico, inorgánico o no reciclable.
+Lista de cambios aplicados a la ventana: Cambiae la pagina de forma que me dijeron que tipo de basura es para clasificarla.
+
+Estos cambios ayudan al proyecto porque, al arreglar el código, la ventana ahora funciona bien y el usuario puede ver fácilmente los tipos de basura. Así, al escanear un producto, sabe rápido si es orgánico, inorgánico o reciclable.
