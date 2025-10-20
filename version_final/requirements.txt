@@ -1,0 +1,6 @@
+opencv-python
+numpy
+scikit-learn
+joblib
+pillow
+pip install -r requirements.txt
